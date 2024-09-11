@@ -1,64 +1,23 @@
-# http-5211-2024
-Front-End Web Development
+# http-5211-2024 - Front-End Web Development
 
-## Course Outline
 
-# Module 2: Programming Fundamentals
-### Topics:
-- Variables
-- Arithmetic operators
-- Data types
-- Commenting
+This course delivers the fundamentals of computer programming and introduces the tools for creating interactive web pages usingthe JavaScript programming language.
 
-# Module 3: Programming Fundamentals
-### Topics:
-- Control structures (if/else and switch)
-- Logical and assignment operators
-- `confirm()` and `prompt()`
 
-# Module 4: Programming Fundamentals
-### Topics:
-- Arrays
-- Loops
+> **Note:** JavaScript is the key to creating interactive web applications. A strong foundational in computer programming skills with JavaScripttechnologies is a requirement for front-end web developer seeking to work in industry-standard front-end libraries and frameworks.
 
-# Module 5: Programming Fundamentals
-### Topics:
-- Functions
-- Scope
-- Pet Projects
+Here is a link to [Sean's Lesson 1](https://seandoyle.dev/js/lesson1.html)
 
-# Module 6: Programming Fundamentals
-### Topics:
-- Objects
+![Front-End Javascript](https://res.cloudinary.com/dqtokk1cn/image/upload/v1726020774/unnamed_jwukde.png)
 
-# Module 8: DOM Programming
-### Topics:
-- The Document Object Model
+Here is a sample js function code that adds 2 numbers
 
-# Module 9: DOM Programming
-### Topics:
-- Handling forms
+```js
+function addNumbers(a, b) {
+    return a + b;
+}
 
-# Module 10: Special DOM Objects
-### Topics:
-- Math object
-- Date object
-- Timers
+let result = addNumbers(5, 10);
+console.log(result); 
 
-# Module 11: Special DOM Objects
-### Topics:
-- `XMLHttpRequest()`
-- Cookies
-- `localStorage`
 
-# Module 12: JavaScript Libraries & APIs
-### Topics:
-- Accessing external data through web APIs
-
-# Module 13: JavaScript Libraries & APIs
-### Topics:
-- jQuery
-
-# Module 14: JavaScript Libraries & APIs
-### Topics:
-- Alternate strategies for accessing external data through web APIs
