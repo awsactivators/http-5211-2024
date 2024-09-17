@@ -7,3 +7,7 @@ https://seandoyle.dev/js/lesson1.html
 
 ### Sean's Lesson 2 Web page
 https://seandoyle.dev/js/lesson2.html
+
+# Week 3
+### Sean's Lesson 3 Web page
+https://seandoyle.dev/js/lesson3.html
