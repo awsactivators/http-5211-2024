@@ -11,3 +11,10 @@ https://seandoyle.dev/js/lesson2.html
 # Week 3
 ### Sean's Lesson 3 Web page
 https://seandoyle.dev/js/lesson3.html
+
+# Week 4
+
+### JavaScript with Sean Doyle
+Lesson 4: Functions
+
+https://seandoyle.dev/js/lesson4.html
