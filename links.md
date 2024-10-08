@@ -25,3 +25,8 @@ https://seandoyle.dev/js/lesson4.html
 
 ### Sean's Lesson 5 Web page
 https://seandoyle.dev/js/lesson5.html
+
+## Week 6
+Sean's Lesson 6 Web Page
+
+https://seandoyle.dev/js/lesson6.html
