@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Form Elements</title>
+<!--<link href="styleSheetTemplate.css" rel="stylesheet" type="text/css" />-->
+<style>#confirmMsg{display:none;}</style>
+</head>
+<body>
+
+<h1>Jenny&rsquo;s House of Code</h1>
+
+<h2>What can we do for you?</h2>
+
+<form name="f_quote" id="id_quote" action="#" method="post" >
+
+<!--CONTACT INFO-->
+		<fieldset>
+			<legend>Contact Us for a Quote</legend>
+
+			<p><!-- NAME -->
+				<label for="id_name" >Your name:</label>
+				<input type="text" name="f_name" id="id_name" />
+			</p>
+
+			<p><!--  PHONE  -->
+				<label for="id_phone" >Your phone number:</label>
+				<input type="text" name="f_phone" id="id_phone" />
+			</p>
+			
+			<p><!--  TIME TO CALL  -->
+				<label for="id_daytime">Check if you would like us to call after business hours:</label>
+				<input type="checkbox" name="f_daytime" id="id_daytime" value="NIGHT"/>
+			</p>
+
+			<p><!--SUBMIT BUTTON-->
+				<input type="submit" value="Submit Contact Request" title="Click to send us your phone number so that we may discuss your next web project with you." />
+			</p>
+		</fieldset>
+</form>
+
+<!-- CONFIRMATION MESSAGE -->
+<div id="confirmMsg">
+	<h2>Thank you, <span id="msg_name">NAME</span>!</h2>
+
+	<p>We will contact you <span id="msg_time"></span> at <span id="msg_phone">PHONE</span> within the next two business days.</p>
+	<p>We look forward to speaking with you!</p>
+	<p>Best regards,<br />Jenny &amp; the Team</p>
+</div>
+
+<script src="8-forms-phone.js"></script>
+</body>
+</html>
