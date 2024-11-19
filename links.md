@@ -37,3 +37,16 @@ https://seandoyle.dev/js/lesson6.html
 ### Sean's Lesson 7 Web Page
 
 https://seandoyle.dev/js/lesson7.html
+
+
+## Week 8
+
+### Sean's Lesson 8 Web Page
+
+https://seandoyle.dev/js/lesson8.html
+
+## Week 9 
+
+### Sean's Lesson 9 Web Page
+
+https://seandoyle.dev/js/lesson9.html
