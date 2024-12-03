@@ -50,3 +50,16 @@ https://seandoyle.dev/js/lesson8.html
 ### Sean's Lesson 9 Web Page
 
 https://seandoyle.dev/js/lesson9.html
+
+## Week 10
+
+### Sean's Lesson 10 Web Page
+
+https://seandoyle.dev/js/lesson11.html
+
+openweathermap.org API (https://openweathermap.org/api) The webpage for the Current Weather Data API.
+
+OpenWeatherMap API Documentation (https://openweathermap.org/current#current_JSON) - a web developer's best friend!
+
+OpenWeather API Key Registration (https://home.openweathermap.org/users/sign_up) YOU NEED TO REGISTER FOR "Current Weather Data" FOR YOUR LAB EXERCISE. Here is where you can get your own API key that you will need for your application. Note: It may take 5-30 minutes for your application to go through so it is a good idea to do this in advance of the class. Keep checking your email - and your spam folder.
+

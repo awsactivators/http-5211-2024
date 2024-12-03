@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play GTS</title>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+  <!-- Add icon library -->
+  <script src="https://kit.fontawesome.com/e0a2509a73.js" crossorigin="anonymous"></script>
+
+
+  <!-- External JavaScript Libraries -->
+  <script src="https://flbulgarelli.github.io/headbreaker/js/headbreaker.js"></script>
+  <script type="module" src="./js/heros.js"></script>
+  <script type="module" src="./js/main.js" defer></script> 
+</head>
+
+<body>
+  <div class="body-container2">
+    <div class="header-main-container2">
+      <header>
+        <div class="header-wrapper2">
+          <div class="help-icons">
+            <div>
+              <i class="fa-solid fa-volume-high" id="sound-icon"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-volume-xmark" id="mute-icon" style="display: none;"></i>
+            </div>
+          </div>
+
+          <div class="level">
+            <h1>Level <span class="level-number" id="level-number"></span></h1>
+          </div>
+
+          <div class="help-icons">
+            <div>
+              <i class="fa-solid fa-gear" id="settings-icon"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-circle-info" id="info-icon"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      </div>
+
+      <!-- <div id="message-container" style="text-align: center; color: red; font-size: 1.2rem;"></div> -->
+
+      
+      <main>
+        <div class="main-container2">
+          <div class="main-play-wrapper">
+            <div class="heroname">
+              <h2>Guess the superhero</h2>
+            </div>
+  
+            <div class="puzzle" id="my_canvas">
+            </div>
+  
+            <div id="message-container" style="text-align: center; margin: 0 0 10px 0; font-size: 1.2rem;"></div>
+
+            <form action="">
+              <div class=play-form>
+                <div class="play-input">
+                  <input type="text" name="name" placeholder="Superhero name:">
+                  
+
+                </div>
+                <div class="play-btn">
+                  <button type="submit">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+    
+
+      <div class="footer-container2">
+        <footer>
+          <div class="home-like-icons">
+            <a href="./index.html" id="home-icon"><i class="fa-solid fa-house"></i></a>
+            <a href="#" id="thumbs-up"><i class="fa-regular fa-thumbs-up"></i></a>
+            <a href="#" id="thumbs-down"><i class="fa-regular fa-thumbs-down"></i></a>
+          </div>
+        </footer>
+      </div>
+  </div>
+
+  <!-- Overlay for fading background -->
+  <div id="overlay"></div>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal">
+    <h3>Settings</h3>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <button id="close-settings">Close</button>
+  </div>
+</body>
+</html>
