@@ -1,5 +1,3 @@
-// 9a379a47974e9bce83f3b6c0309b0503
-
 window.onload = function () {
   // DOM Elements
   const messageContainer = document.getElementById("message-container");

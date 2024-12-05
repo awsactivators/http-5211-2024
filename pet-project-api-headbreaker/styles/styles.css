@@ -25,9 +25,9 @@ body {
 
 .header-main-container {
   background-image: url(../images/woody-hero-bg.png);
-  height: 950px;
+  height: 980px;
   background-repeat: no-repeat;
-  background-size: 1800px 950px;
+  background-size: 1800px 980px;
 }
 
 .header-wrapper {
@@ -44,6 +44,10 @@ body {
   font-size: 50px;
   line-height: 0px;
   text-shadow: 0 4px 4px var(--shadow-color);
+}
+
+.header-wrapper p {
+  font-size: 28px;
 }
 
 
@@ -645,7 +649,7 @@ body.dark-mode .modal-content {
 /* Media Query for Tablets (768px and below) */
 @media screen and (max-width: 768px) {
   .header-main-container {
-    height: 820px;
+    height: 900px;
     background-size: cover;
   }
 
@@ -656,6 +660,11 @@ body.dark-mode .modal-content {
 
   .header-wrapper h1 {
     font-size: 35px;
+  }
+
+  .header-wrapper p {
+    text-align: center;
+    font-size: 24px;
   }
 
   .main-container, .main-container2, .main-container3 {
@@ -743,6 +752,7 @@ body.dark-mode .modal-content {
   .gif img {
     width: 200px;
     height: 250px;
+    padding-bottom: 60px;
   }
 
   .play-btn a, .support-btn a {
