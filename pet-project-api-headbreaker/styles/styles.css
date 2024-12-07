@@ -196,6 +196,12 @@ body {
   height: 358px; 
 }
 
+#message-container {
+  text-align: center; 
+  margin: 0 0 10px 0; 
+  font-size: 1.2rem;
+}
+
 .play-form {
   display: flex;
   flex-direction: column;
@@ -421,6 +427,10 @@ body {
 /***************************************************************/
 
 /* Info Box Dropdown */
+#mute-icon {
+  display: none;
+}
+
 #info-box {
   position: absolute;
   top: 50px; 
@@ -924,7 +934,7 @@ body.dark-mode .modal-content {
 /* Media Query for Phones (320px and below) */
 @media screen and (max-width: 320px) {
   .header-main-container {
-    height: 770px;
+    height: 880px;
     background-size: cover;
   }
 
@@ -951,7 +961,7 @@ body.dark-mode .modal-content {
   }
 
   .main-container2 {
-    height: 600px;
+    height: 650px;
   }
 
   .main-container3 {
@@ -973,6 +983,10 @@ body.dark-mode .modal-content {
     width: 150px;
     height: 200px;
     padding-bottom: 60px;
+  }
+
+  .play-form {
+    margin-top: 30px;
   }
 
   .play-btn a, .support-btn a {
@@ -1003,8 +1017,14 @@ body.dark-mode .modal-content {
   }
 
   #my_canvas {
-    width: 240px;
-    height: 280px;
+    /* width: 240px;
+    height: 280px; */
+    width: 100%; 
+    height: auto; 
+    max-width: 280px; 
+    margin: 0 auto; 
+    display: block;
+    padding-bottom: ;
   }
 
   .completed-jigsaw-puzzle img {

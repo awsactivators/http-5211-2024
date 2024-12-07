@@ -1,5 +1,3 @@
-// 9a379a47974e9bce83f3b6c0309b0503
-
 window.onload = function () {
   // DOM Elements
   const messageContainer = document.getElementById("message-container");
@@ -63,12 +61,6 @@ window.onload = function () {
     if (puzzleWrapperElement) {
       puzzleWrapperElement.innerHTML = `<img src="${hero.images.md}" alt="${hero.name}" style="width: 100%; height: auto;">`;
     }
-
-    // // Update hero short description
-    // if (heroDetailsElement) {
-    //   heroDetailsElement.textContent = `Full Name: ${hero.biography.fullName || "N/A"}, 
-    //     First Appearance: ${hero.biography.firstAppearance || "Unknown"}`;
-    // }
 
     // Update hero short description
     if (heroDetailsElement) {

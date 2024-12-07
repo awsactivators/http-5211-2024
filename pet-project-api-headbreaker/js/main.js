@@ -50,40 +50,46 @@ window.onload = function () {
     // https://github.com/flbulgarelli/headbreaker/blob/master/README.md
     const image = new Image();
     image.src = hero.images.md; // Use the medium-sized image
+    
     image.onload = function () {
+      const parentElement = document.querySelector('#my_canvas');
+      const canvasWidth = parentElement.offsetWidth; // Get the current width of the canvas container
+      const canvasHeight = (canvasWidth / 4) * 5; // Maintain aspect ratio of 4:5
+    
       const canvas = new headbreaker.Canvas("my_canvas", {
-        width: 300,
-        height: 358,
-        pieceSize: 50,
-        borderFill: 25,
+        width: canvasWidth,
+        height: canvasHeight,
+        pieceSize: canvasWidth / 6, 
+        borderFill: canvasWidth / 12, 
         strokeWidth: 2,
         image: image,
       });
-
+    
       canvas.autogenerate({
-        horizontalPiecesCount: 6, 
+        horizontalPiecesCount: 6,
         verticalPiecesCount: 6,
       });
-
-      // Randomly hide pieces
+    
+      // randomly hide pieces
       const puzzle = canvas.puzzle;
       const totalPieces = puzzle.pieces.length;
       const maxMissingPieces = 35; // Number of missing pieces
-
+    
       for (let i = 0; i < maxMissingPieces; i++) {
         const randomIndex = Math.floor(Math.random() * totalPieces);
         puzzle.pieces[randomIndex].metadata.hidden = true;
       }
-
+    
       // Remove hidden pieces
       puzzle.pieces.forEach((piece) => {
         if (piece.metadata.hidden) {
           piece.drag(1000, 1000); // Move piece off the canvas
         }
       });
-
+    
       canvas.draw();
     };
+    
 
     // Set up guessing functionality
     setUpGuessing(hero);
