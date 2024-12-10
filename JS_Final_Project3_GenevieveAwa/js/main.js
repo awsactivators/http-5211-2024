@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log("Page loaded");
 
+  /* I used a framework concept for puzzle to work on my project, here is the github repo link
+     https://github.com/flbulgarelli/headbreaker
+  */
+
   // Variables
   // General Variables
   var urlParams = new URLSearchParams(window.location.search);
@@ -56,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!hero) {
     console.log("Hero data not found for level:", level);
     canvas.innerHTML = "Hero data not found for level: " + level;
-    window.location.href = "./index.html"; // Redirect to the home page if no hero data is available (this also happens after last level)
+    window.location.href = "./index.html"; // Redirect to the home page if no hero data is available (this also happens after last level 10)
     return;
   }
 
@@ -66,7 +70,8 @@ document.addEventListener("DOMContentLoaded", () => {
     levelNumberElement.textContent = level;
     console.log("Level number updated on page:", level);
   } else {
-    console.warn("Level number element not found!");
+    //console.log("Level number element not found!");
+    levelNumberElement.innerHTML = "Level number not found!";
   }
 
 
